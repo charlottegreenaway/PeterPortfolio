@@ -1,0 +1,194 @@
+<DOCTYPE! HTML>
+<html>
+<link rel="stylesheet" href="indexcss.css">
+<title>Home</title>
+<script src="index.js" defer></script>
+<header>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+ <nav>
+      <div class="logo">
+        <h1 style="color:white"> Peter Phillips</h1> <p1>     LCV Service Team Leader </p1>
+      </div>
+      <div class="links">
+	    <strong id="mobile-menu-btn"style="text-decoration:none" style="color:white">Menu</strong>
+        <p><a href="index.html"style="text-decoration:none">Home</a></p>
+        <p><a href="#aboutme"style="text-decoration:none">About Me</a></p>
+        <p><a href="#skills"style="text-decoration:none">Skills</a></p>
+        <p><a href="#certifications"style="text-decoration:none">Certifications</a></p>
+		<p><a href="resume.html"style="text-decoration:none">Resume</a></p>
+		<p><a href="#testimonials"style="text-decoration:none">Testimonials</a></p>
+		<p><a href="contact.html"style="text-decoration:none">Contact</a></p>
+        
+      </div>
+	  
+ </nav>
+
+    <!-- Small Screen Navigation Bar -->
+    <div class="mobile-menu">
+      <p><a href="index.html"style="text-decoration:none">Home</a></p>
+      <p><a href="#aboutme"style="text-decoration:none">About Me</a></p>
+      <p><a href="#skills"style="text-decoration:none">Skills</a></p>
+      <p><a href="#certifications"style="text-decoration:none">Certifications</a></p>
+	  <p><a href="resume.html"style="text-decoration:none">Resume</a></p>
+	  <p><a href="#testimonials"style="text-decoration:none">Testimonials</a></p>
+	  <p><a href="contact.html"style="text-decoration:none">Contact</a></p>
+      <strong id="mobile-menu-btn"style="text-decoration:none">Menu</strong>
+    </div>
+<style>
+	a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+    }
+	a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+    }
+	a:hover {
+    color: lightgrey;
+    background-color: transparent;
+    text-decoration: underline;
+    }
+	
+	</style>
+
+
+</header>
+
+<body>
+<div class="fade-in">
+	<div id="aboutme">
+	<a name="aboutme"></a>
+		 
+			<img src="peter.png" width=150px style="float:left">
+			<center><h2>About Me</h2></center>
+			<p2>I am a results-driven and customer-focused individual with a proven track record of meeting and exceeding objectives and targets. I possess excellent communication skills and the ability to adapt to different audiences and situations. I am organized and efficient, with a strong focus on time management and meeting deadlines. In addition, I am personable and positive, with the ability to find solutions to problems and learn new skills quickly.</p2>
+
+			
+			
+	</div>
+	<div id="skills">
+	<a name="skills"></a>
+		<h2><center>Skills</center></h2>
+		<img src="skills_icon.png" height= 90px width= 150px style= "float:right" >
+		<p2> <b> Customer Service Management </b>- overseeing the team and ensuring high-quality customer support through goal-setting and process improvement.<br>
+		<b>Organization Skills</b> - planning and executing tasks effectively and efficiently, often involving the creation of schedules and lists and the organization of spaces.<br>
+		<b>Team Motivation</b> - inspiring and motivating the team to perform their best through goal-setting, recognition, and addressing challenges.<br>
+		<b>Service Delivery</b> - ensuring timely and satisfactory delivery of products or services, often involving coordination with other departments.<br>
+		<b>Time Management</b> - prioritizing tasks and managing time effectively to meet deadlines and accomplish goals, often involving the use of schedules and tools.<br>
+		<b>Interpersonal Skills</b> - communicating and working well with others- using tools such as active listening, empathy, and the ability to resolve conflicts.</p2>
+		
+	</div>
+	<div id="certifications">
+	<a name="certifications"></a>
+		<img src="certification_logo.png" height= 190px width= 177px style= "float:right"  >
+		<h2>Certifications</h2>
+		<p2>Level 2 Key skills in Communication<br>Level 1 Health & Safety at Work - British Safety Counci<br>Level 1 Adult Literacy - OCR<br>Level 1 Functional skills in mathematics<br>Basic First Aid Course - British Red Cross<br>Principles Of Manual Handling Certificate - Chartered Institute Of
+		Environmental Health<br>BTEC Level 2 Working as a Volunteer<br>Level 1 BTEC in Work Skills<br>Level 2 Key skills in Communication<br>First Aid at work - St Johns Ambulance<br></p2>
+		<br>
+		<br>
+	</div>
+	<div id="testimonials">
+	<a name="testimonials"></a>
+		<h2><center>What People Say</center</h2>
+<div id="intro">
+	<!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width slides/quotes -->
+  <div class="mySlides">
+    <q>Peter was always willing to learn new skills and not afraid to ask when in need.</q>
+    
+  </div>
+  <div class="mySlides">
+    <q>Always Punctual and always had a pleasant smile for everyone!</q>
+    
+  </div>
+  <div class="mySlides">
+    <q>Peter will be a great asset with any work given within any business.</q>
+    
+  </div>
+  <div class="mySlides">
+    <q>I was very impressed with the commitment and drive Peter had to work.</q>
+    
+  </div>
+  <div class="myslides">
+	<q> Peter certainly has the ability to use his own initiative on many occasions which was very much appreciated.</q>
+  </div>
+
+
+  <!-- Next/prev buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+
+<!-- Dots/bullets/indicators -->
+<div class="dot-container">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+  <span class="dot" onclick="currentSlide(5)"></span>
+ 
+  
+</div>
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+    }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+
+		
+</div>
+</div>
+</div>
+</body>
+<footer>
+
+  <div class="footer-container">
+    <div class="footer-section">
+      <h3>Contact </h3>
+      <ul>
+        <li>Email: <a href="mailto:peterphillips1992@hotmail.co.uk">peterphillips1992@hotmail.co.uk</a></li>
+		<li>Mobile: 07745 744409</li>
+		<li>Linkedin <a href="https://www.linkedin.com/in/peter-phillips-8392abab/"><img src="linkedin_logo.png" width= 30px ></a></li>
+      </ul>
+    </div>
+   
+  </div>
+  <div class="copyright">© 2022 All Rights Reserved. Peter Phillips</div>
+
+	
+
+</footer>
+
+
+
+</html>
